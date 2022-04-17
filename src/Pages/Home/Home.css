@@ -1,15 +1,16 @@
 .banner {
     background: linear-gradient(#00000059,#00000059), linear-gradient(#00000059,#00000059), url("https://preview.moxcreative.com/amerta/wp-content/uploads/sites/5/2022/02/wedding-couple-on-the-french-riviera-wedding-in-provence-bride-and-groom-in-france-1.jpg");
     background-size: cover;
-    height: 100vh;
+    height: 80vh;
     z-index: -11;
 }
 .banner-title{
     z-index: 11;
     width: 500px;
-    margin: 200px  0px;
+    padding-top: 150px;
     text-align: center;
     font-size: 50px;
+    font-weight: bold;
     margin: auto;
     color: white;
     display: flex;

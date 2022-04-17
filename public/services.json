@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Photo Shooting",
+        "price": 40,
+        "img": "https://image.marriage.com/advice/wp-content/uploads/2018/06/Why-Hire-a-Professional-Wedding-Photographer-1606929574.jpg",
+        "comment": "professional photo shooting and photography services include corporate photography and studio photo services designed to create a breath-taking experience. ",
+        "id": 1
+    },
+    {
+        "name": "Video Shooting",
+        "price": 65,
+        "img": "https://5.imimg.com/data5/SELLER/Default/2020/12/GV/KI/JR/119084435/wedding-videography-services-500x500.jpg",
+        "comment": "Produce higher quality photos, faster, and at a greater volume than ever before",
+        "id": 2
+    },
+    {
+        "name": "Photo Editing",
+        "price": 25,
+        "img": "https://imageeditinghq.com/wp-content/uploads/2017/03/professional-photo-editing-services.jpg",
+        "comment": "Got for my 15 year old that does photography, he is pretty good and now gets paid to take pictures!! Great camera!",
+        "id": 3
+    },
+    {
+        "name": "Photo Printing",
+        "price": 5,
+        "img": "https://global-uploads.webflow.com/5c6e75c31c5eeecf08e80678/60375ec69722b5b2544affeb_print-your-wedding-photos-online.jpg",
+        "comment": "Uses semi-gloss photo paper for the photo printing. Order your wedding photo, family potrait photo online",
+        "id": 4
+    },
+    {
+        "name": "Anniversary",
+        "ratings": 45,
+        "img": "https://img.favpng.com/23/10/11/balloon-wedding-anniversary-birthday-party-png-favpng-aBQ6rnqdVWV8bfNxJLfJVg4Qf.jpg",
+        "comment": "The perfect gift for your Wedding Anniversary? A Wedding Anniversary Photo Shoot in Tuscany. Please contact me for info!",
+        "id": 5
+    },
+    {
+        "name": "Paddy O'Furniture.",
+        "ratings": 4.9,
+        "img": "https://s3.amazonaws.com/mentoring.redesign/Markitors-Brett-Farmiloe-sm.jpg",
+        "comment": "I shoot a lot of weddings, portraits, and events. This little guy can get the job done and some! It's an amazing camera, and more than capable for any job or any hobbyist who knows there way around a camera",
+        "id": 6
+    }
+]
