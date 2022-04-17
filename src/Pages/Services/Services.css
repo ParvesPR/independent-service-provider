@@ -1,5 +1,14 @@
-.services-sub-title{
+.services-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 80px 50px;
+}
+
+.services-sub-title {
     color: #D5B69C;
     font-size: 25px;
     text-align: center;
+    width:100px;
+    margin: auto;
 }

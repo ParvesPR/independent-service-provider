@@ -1,0 +1,19 @@
+.service-container{
+    border: 2px solid brown;
+    border-radius: 5px;
+    padding: 25px;
+}
+.service-img{
+    width: 200px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+.service-btn{
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px 30px;
+    color: white;
+    background: blue;
+
+}

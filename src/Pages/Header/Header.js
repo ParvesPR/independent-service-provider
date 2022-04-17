@@ -14,7 +14,7 @@ const Header = () => {
         <Navbar.Collapse id="basic-navbar-nav" className='justify-space-around'>
           <Nav className="ms-auto ">
             <Nav.Link className='text-white' as={Link} to="/home">Home</Nav.Link>
-            <Nav.Link className='text-white' as={Link} to="/services">Services</Nav.Link>
+            <Nav.Link className='text-white' as={Link} to="#services">Services</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
