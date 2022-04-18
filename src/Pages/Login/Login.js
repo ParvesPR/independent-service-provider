@@ -3,6 +3,7 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../firebase.init';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import './Login.css';
+import SocialLogin from '../SocialLogin/SocialLogin';
 
 const Login = () => {
 
@@ -15,6 +16,7 @@ const Login = () => {
         loading,
         error,
     ] = useSignInWithEmailAndPassword(auth);
+
 
     const navigate = useNavigate();
     const location = useLocation();
@@ -34,6 +36,7 @@ const Login = () => {
         event.preventDefault();
         signInWithEmailAndPassword(email, password);
     }
+
 
     return (
         <div className='form-container mt-5'>
@@ -58,9 +61,7 @@ const Login = () => {
                     <span> or </span>
                     <div className='div-2'><hr /></div>
                 </div>
-                <div className='continue-google'>
-                    Continue with Google
-                </div>
+                <SocialLogin></SocialLogin>
             </div>
         </div>
     );
