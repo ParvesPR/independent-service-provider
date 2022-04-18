@@ -36,9 +36,9 @@ const Login = () => {
     }
 
     return (
-        <div className='form-container'>
+        <div className='form-container mt-5'>
             <div>
-                <h2 className='form-title'>Login</h2>
+                <h2 className='form-title py-3'>Login</h2>
                 <form onSubmit={handleLogin}>
                     <div className='input-group'>
                         <label htmlFor="email">Email</label>
