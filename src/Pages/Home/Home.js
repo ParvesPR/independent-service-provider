@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Footer/Footer';
 import Services from '../Services/Services';
 import './Home.css';
 
@@ -9,6 +10,7 @@ const Home = () => {
                 <span className='banner-title'>Make Your Wedding A Wonderfull Story</span>
             </div>
             <Services></Services>
+            <Footer></Footer>
         </div>
     );
 };

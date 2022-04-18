@@ -24,9 +24,10 @@ const Header = () => {
           <Nav className="me-auto ">
             <Nav.Link className='text-white' as={Link} to="/home">Home</Nav.Link>
             <Nav.Link className='text-white' href="home#services">Services</Nav.Link>
+            <Nav.Link className='text-white' as={Link} to="/about">About</Nav.Link>
+            <Nav.Link className='text-white' href="home#footer">Footer</Nav.Link>
           </Nav>
           <Nav className="ms-auto ">
-            <Nav.Link className='text-white' as={Link} to="/about">About</Nav.Link>
             {
               user ?
                 <button onClick={handleSignOut} className='btn btn-primary'>Sign Out</button> :
