@@ -42,9 +42,9 @@ const SignUp = () => {
     }
 
     return (
-        <div className='form-container'>
+        <div className='form-container mt-5'>
             <div>
-                <h2 className='form-title'>Sign Up</h2>
+                <h2 className='form-title py-3'>Sign Up</h2>
                 <form onSubmit={handleCreateUser}>
                     <div className='input-group'>
                         <label htmlFor="email">Email</label>
@@ -61,7 +61,7 @@ const SignUp = () => {
                     <p className='show-error-msg text-danger'>{error}</p>
                     <input className='form-btn' type="submit" value="Sign Up" />
                 </form>
-                <p>Already have an account? <Link className='create-ac-link' to='/login'>Login</Link></p>
+                <p className='mt-2'>Already have an account? <Link className='create-ac-link' to='/login'>Login</Link></p>
                 <div className='or-div'>
                     <div className='div-1'><hr /></div>
                     <span> or </span>
