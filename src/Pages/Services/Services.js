@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Col } from 'react-bootstrap';
 import Service from '../../images/Service/Service';
 import './Services.css';
 
@@ -11,7 +12,7 @@ const Services = () => {
       .then(data => setServices(data))
   }, []);
   return (
-    <div id='services' className='mt-5' >
+    <div id='services' className='mt-5 col-sm-12 col-md-12'  >
       <h1 className='w-25 mx-auto text-align-center d-block text-primary'>Services</h1>
       <h2 className='w-50 mx-auto text-align-center'>Real Wedding Memories Captured</h2>
       <div className='services-items'>
