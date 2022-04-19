@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blogs = () => {
     return (
-        <div>
+        <div className='col-sm-12 col-lg-12'>
             <h2 className='text-center text-primary py-4'>WELCOME TO MY BLOG</h2>
             <div className='bg-success border-1 rounded-3 m-4 p-4 text-white'>
             <h4>Difference between authorization and authentication.</h4>
