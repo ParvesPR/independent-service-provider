@@ -6,6 +6,7 @@ import Header from './Pages/Header/Header';
 import Home from './Pages/Home/Home';
 import Login from './Pages/Login/Login';
 import NotFound from './Pages/NotFound/NotFound';
+import Portfolio from './Pages/Portfolio/Portfolio';
 import RequireAuth from './Pages/RequireAuth/RequireAuth';
 import SignUp from './Pages/Services/SignUp/SignUp';
 
@@ -22,6 +23,7 @@ function App() {
           </RequireAuth>
         }></Route>
         <Route path='/blog' element={<Blogs></Blogs>}></Route>
+        <Route path='/portfolio' element={<Portfolio></Portfolio>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/signup' element={<SignUp></SignUp>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
